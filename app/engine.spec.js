@@ -1,6 +1,6 @@
 import { V6Engine, V8Engine, getVersion } from './engine';
 
-describe('Engine - ',() => {
+describe('Engine - ', () => {
   it('should have a v6 engine', () => {
     let v6 = new V6Engine();
     expect(v6.toString()).toBe('V6');

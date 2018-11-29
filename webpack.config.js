@@ -35,6 +35,7 @@ console.log(welcome);
 module.exports = {
   entry: {
     car: ['./app/car.js'],
+    // index: './app/index.js',
   },
   output: {
     path: path.join(__dirname, '/dist'),
